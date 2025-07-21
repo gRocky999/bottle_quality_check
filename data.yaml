@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cap_damaged', 'cap_ok', 'label_damaged', 'label_ok', 'normal', 'overfilled', 'underfilled']
+
+roboflow:
+  workspace: veer-projects
+  project: bottle-quality-control
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/veer-projects/bottle-quality-control/dataset/5
